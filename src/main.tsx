@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import store from './services/store.ts'
 
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter basename="/art-gallery/">
+  <BrowserRouter basename="/my-art-gallery/">
     <Provider store={store}>
       <App />
     </Provider>
