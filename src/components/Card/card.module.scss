@@ -1,0 +1,70 @@
+.list_item {
+    padding: 10px;
+}
+
+.card {
+    height: 60vh;
+    padding: 20px;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    max-height: 30vh;
+    object-fit: contain;
+}
+
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.article {
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    right: 30px;
+}
+
+.button {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.noImageIcon {
+    font-size: 100px;
+    position: absolute;
+    bottom: 60%;
+    left: 39%;
+}
+
+.heartIconActive {
+    font-size: 29px;
+    color: #e39075;
+    transition: color 0.3s ease-in-out;
+}
+
+.heartIcon {
+    color: #f3bfa3;
+    font-size: 29px;
+    transition: color 0.3s ease-in-out;
+}
+
+.deleteIcon {
+    color: #f3bfa3;
+    font-size: 28px;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    transition: color 0.3s ease-in-out;
+}
+
+.deleteIcon:hover {
+    color: #e39075;
+}

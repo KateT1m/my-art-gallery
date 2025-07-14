@@ -1,0 +1,36 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    background-color: #e39075;
+}
+
+.nav {
+    display: flex;
+    flex-basis: 45vw;
+}
+
+.menu_button {
+    background-color: #e39075;
+    font-size: 20px;
+    margin: 0;
+    color: black;
+    opacity : 1;
+    transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.menu_button:hover {
+    opacity: 0.6; 
+}
+
+.logo {
+    color: black;
+    opacity : 1;
+    transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    font-size: 28px;
+}
+
+.logo:hover {
+    opacity: 0.6; 
+}
