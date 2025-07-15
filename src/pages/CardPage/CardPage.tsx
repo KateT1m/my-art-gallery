@@ -21,7 +21,7 @@ export const CardPage = () => {
             <p>Date display: {art.date_display}</p>
             <p>Place of origin: {art.place_of_origin}</p>
             <p>{art.publication_history}</p>
-            <Link to='/products'><ButtonUI buttonType='button' title = {'Back to gallery'} handleClick={() => {}}/></Link>
+            <Link to='/'><ButtonUI buttonType='button' title = {'Back to gallery'} handleClick={() => {}}/></Link>
         </div>
     )
 }

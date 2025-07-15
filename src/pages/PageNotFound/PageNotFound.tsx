@@ -6,7 +6,7 @@ export const PageNotFound = () => {
     return (
         <div className={style.pageNotFound}>
             <h1>This page doesn't exist</h1>
-            <Link to='/products'><ButtonUI buttonType='button' title = {'Back to gallery'} handleClick={() => {}}/></Link>
+            <Link to='/'><ButtonUI buttonType='button' title = {'Back to gallery'} handleClick={() => {}}/></Link>
         </div>
     )
 }
